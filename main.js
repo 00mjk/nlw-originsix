@@ -95,7 +95,7 @@ function activateMenuAtCurrentSection() {
     } else {
       document
         .querySelector('nav ul li a[href*=' + sectionId + ']')
-        .classList.add('remove')
+        .classList.remove('active')
     }
   }
 }
